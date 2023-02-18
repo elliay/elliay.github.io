@@ -1,0 +1,102 @@
+/* ==============================================
+Header
+============================================== */
+
+.header{
+    display: flex;
+    background-color:#3F9E7F;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left:30px;
+    margin-right:30px;
+    /* background-color: purple; */
+}
+
+.logo-image{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-bar{
+    text-align:right;
+    width: auto;
+    flex-grow:1;
+    height: 75px;
+    margin-left:auto;
+    margin-right:30px;
+    margin-bottom:40px;
+    padding-top: 20px;
+    padding-left:65%;
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-top-color: black;
+    /* background-color:aquamarine; */
+    display: flex;
+}
+
+
+
+.nav-button{
+    cursor:pointer;
+    font-size: large;
+    border-style:hidden;
+    background-color:#3F9E7F;
+}
+.nav-button-selected{
+    cursor:pointer;
+    background-color:yellow;
+    font-size: large;
+    border-style:hidden;
+}
+
+.nav-selection{
+    margin:8px;
+    /* background-color:chartreuse; */
+    text-align:center;
+    padding:20px;
+}
+
+.page-title-container{
+    width: auto;
+}
+
+.title{
+    text-align:left;
+    padding-top:50px;
+    font-size:x-large;
+    /* background-color:crimson; */
+}
+
+/* ===============================
+Intro
+=============================== */
+
+
+.intro{
+    width:auto;
+    height:auto;
+    background-color:#3F9E7F;
+    /* background-color:aqua; */
+    display:flex;
+}
+
+.intro-text{
+    /* background-color:blueviolet; */
+    font-family:'Bookman', 'URW Bookman L', serif;
+    padding-top:6%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.intro-title{
+    font-family:'Courier New', monospace;
+    margin-bottom:50px;
+    font-size:60px;
+}
+
+.intro-desc{
+    font-size:32px;
+}
