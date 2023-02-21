@@ -7,7 +7,7 @@ Header
     background-color:#3F9E7F;
     /* background-color:blue; */
     padding-left:2%;
-    padding-right:5%;
+    padding-right:2%;
 }
 
 .logo{
@@ -27,14 +27,14 @@ Header
 
 .nav-bar{
     text-align:right;
-    width: 60%;
+    width: auto;
+    flex-grow:1;
     height: 75px;
     margin-left:auto;
-    margin-right:3%;
+    margin-right:30px;
     margin-bottom:50px;
     padding-top: 20px;
     padding-left:60%;
-    padding-right:1%;
     border-width: 0px 0px 3px 0px;
     border-style: solid;
     border-color: black;
@@ -66,40 +66,3 @@ Header
     padding:20px;
 }
 
-
-
-/* ===============================
-Intro
-=============================== */
-
-
-.intro{
-    width:auto;
-    height:auto;
-    background-color:#3F9E7F;
-    /* background-color:aqua; */
-    display:flex;
-}
-
-.spline-design{
-    /* background-color:blueviolet; */
-    width:340%;
-    height:800px;
-}
-.intro-text{
-    /* background-color:blueviolet; */
-    font-family:'Bookman', 'URW Bookman L', serif;
-    padding-top:2%;
-    padding-left:5%;
-    padding-right:5%;
-}
-
-.intro-title{
-    font-family:'Courier New', monospace;
-    margin-bottom:50px;
-    font-size:350%;
-}
-
-.intro-desc{
-    font-size:200%;
-}
