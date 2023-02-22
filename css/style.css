@@ -156,6 +156,9 @@ nav {
 Intro
 =============================== */
 
+body{
+    background-color:#3F9E7F;
+}
 
 .intro{
     width:100%;

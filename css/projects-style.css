@@ -4,7 +4,7 @@ Header
 
 .header{
     display: flex;
-    background-color:#3F9E7F;
+    background-color:#89AFEB;
     /* background-color:blue; */
     padding-left:1%;
     padding-right:2%;
@@ -35,7 +35,7 @@ nav {
     height:fit-content;
     flex-grow:1;
     padding-top:30px;
-    background-color:#3F9E7F;
+    background-color:#89AFEB;
     border-width: 0px 0px 3px 0px;
     border-style: solid;
     border-color: black;
@@ -102,3 +102,69 @@ nav {
     background-color: #4caf50;
   
   }
+
+/* ==================
+CONTENT
+================== */
+
+body{
+    background-color:#89AFEB;
+}
+
+.page-content{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+
+.research-container{
+    background-color:#89AFEB;
+    width:100%;
+    font-size:large;
+}
+
+.projects-research-container{
+    display:flex;
+    background-color:cyan;
+}
+
+.research-related-projects{
+    background-color:brown;
+    width:50%;
+    box-sizing:border-box;
+    padding:2%;
+    padding-top:0%;
+}
+
+.research-projects-container{
+    background-color:darkorange;
+}
+
+.other-projects{
+    background-color:chartreuse;
+    width:50%;
+    box-sizing:border-box;
+    padding:2%;
+    padding-top:0%;
+}
+
+.projects-container{
+    background-color:deeppink;
+}
+
+.project{
+    background-color:aqua;
+    width:40%;
+    text-align:center;
+    box-sizing:border-box;
+    border-radius:20px;
+    padding:15px;
+}
+
+.project-logo{
+    width:95%;
+}
+
+.project-desc{
+    font-size:large;
+}
