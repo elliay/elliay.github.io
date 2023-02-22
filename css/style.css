@@ -1,17 +1,42 @@
+.header{
+    display: flex;
+    background-color:#3F9E7F;
+    /* background-color:blue; */
+    padding-left:1%;
+    padding-right:2%;
+    box-sizing:border-box;
+}
+
+.logo{
+    width: 200px;
+    height: 130px;
+    margin-right:1%;
+    padding-top:2%;
+    /* background-color: purple; */
+    text-align:center;
+
+}
+
+.logo-image{
+    width: 125px;
+    height: 125px;
+}
+
 nav {
 
     display: flex;
-  
-    justify-content: space-around;
-  
-    align-items: center;
-  
+    justify-content:end;
+    align-items:center;
     min-height: 8vh;
-  
+    height:fit-content;
+    flex-grow:1;
+    padding-top:30px;
     background-color:#3F9E7F;
-  
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: black;
     font-family: 'Courier New', monospace;
-  
+    margin-left:auto;
   }
   
   .heading {
@@ -23,6 +48,8 @@ nav {
     letter-spacing: 5px;
   
     font-size: 20px;
+/* 
+    background-color:chartreuse; */
   
   }
   
@@ -30,9 +57,11 @@ nav {
   
     display: flex;
   
-    justify-content: space-around;
+    justify-content: right;
   
     width: 30%;
+/* 
+    background-color:coral */
   
   }
   
@@ -70,73 +99,55 @@ nav {
   
   }
 
-
-/* ==============================================
-Header
-============================================== */
-
-.header{
-    display: flex;
-    background-color:#3F9E7F;
-    /* background-color:blue; */
-    padding-left:2%;
-    padding-right:5%;
+@media (max-width:900px){
+    .logo-image{
+        width: 115px;
+        height: 115px;
+    } 
+    .logo{
+        width: 120px;
+        height: 110px;
+        margin-right:1%;
+        padding-top:2%;
+        /* background-color: purple; */
+        text-align:center;
+    
+    }   
 }
 
-.logo{
-    width: 200px;
-    height: 155px;
-    margin-right:1%;
-    padding-top:2%;
-    /* background-color: purple; */
-    text-align:center;
-
-}
-
-.logo-image{
-    width: 125px;
-    height: 125px;
-}
-
-.nav-bar{
-    text-align:right;
-    width: 60%;
-    height: 75px;
-    margin-left:auto;
-    margin-right:3%;
-    margin-bottom:50px;
-    padding-top: 20px;
-    padding-left:60%;
-    padding-right:1%;
-    border-width: 0px 0px 3px 0px;
-    border-style: solid;
-    border-color: black;
-    /* background-color:aquamarine; */
-    display: flex;
-}
-
-
-
-.nav-button{
-    cursor:pointer;
-    font-size: large;
-    font-family:'Courier New', monospace;
-    font-weight:600;
-    border-style:hidden;
-    background-color:#3F9E7F;
-}
-.nav-button-selected{
-    cursor:pointer;
-    background-color:yellow;
-    font-size: large;
-    border-style:hidden;
-}
-
-.nav-selection{
-    margin:8px;
-    /* background-color:chartreuse; */
-    text-align:center;
-    padding:20px;
+@media (max-width:700px){
+    .logo-image{
+        width: 90px;
+        height: 90px;
+    } 
+    .logo{
+        width: 120px;
+        height: 110px;
+        margin-right:1%;
+        padding-top:2%;
+        /* background-color: purple; */
+        text-align:center;
+    
+    }   
+    .nav-links a{
+  
+        color: black;
+      
+        text-decoration: none;
+      
+        letter-spacing: 3px;
+      
+        font-weight: bold;
+      
+        font-size: 14px;
+      
+        padding: 14px 16px;
+      
+      }
+    
+      nav {
+        padding-top:15px;
+      }
 }
 
 
@@ -147,24 +158,28 @@ Intro
 
 
 .intro{
-    width:auto;
+    width:100%;
     height:auto;
     background-color:#3F9E7F;
     /* background-color:aqua; */
     display:flex;
 }
 
+
+
 .spline-design{
     /* background-color:blueviolet; */
-    width:340%;
+    width:320%;
     height:800px;
 }
 .intro-text{
     /* background-color:blueviolet; */
     font-family:'Bookman', 'URW Bookman L', serif;
-    padding-top:2%;
-    padding-left:5%;
+    padding-top:6%;
+    padding-left:2%;
     padding-right:5%;
+    width:180%;
+    box-sizing:border-box;
 }
 
 .intro-title{
@@ -175,4 +190,19 @@ Intro
 
 .intro-desc{
     font-size:200%;
+}
+
+@media (max-width:900px){
+    .intro{
+        flex-direction:column-reverse;
+        
+    }
+    .intro-text{
+        width:100%;
+        font-size:small;
+        flex-grow:0;
+    }
+    .spline-design{
+        width:100%;
+    }
 }
