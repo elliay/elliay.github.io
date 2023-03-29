@@ -4,10 +4,6 @@ Header
 p{
     font-size: larger;
 }
-a {
-    color:black;
-    text-decoration: none;
-}
 
 .header{
     display: flex;
@@ -160,89 +156,12 @@ nav {
 }
 
 
-/* ==================
+/* =======================================
 CONTENT
-================== */
-
-body{
-    background-color:#8EB8E5;
-}
-
-.page-content{
-    margin-left:5%;
-    margin-right:5%;
-}
-
-
-.research-container{
-    /* background-color:#89AFEB; */
-    width:100%;
-    font-size:large;
-}
-
-.projects-research-container{
-    display:flex;
-    /* background-color:cyan; */
-}
-
-.research-related-projects{
-    /* background-color:brown; */
-    width:50%;
-    box-sizing:border-box;
-    padding:0%;
-    padding-top:0%;
-}
-
-.projects-container-row{
-    /* background-color:darkorange; */
-    display:flex;
-    margin-bottom: 15px;
-}
-
-.other-projects{
-    /* background-color:chartreuse; */
-    width:50%;
-    box-sizing:border-box;
-    padding:0%;
-    padding-top:0%;
-}
-
-.projects-container{
-    /* background-color:deeppink; */
-}
-
-.project{
-    background-color:#ACCBEC;
-    width:95%;
-    text-align:center;
-    box-sizing:border-box;
-    border-radius:20px;
-    padding:15px;
-}
-.blank-project{
-    width:1150px;
-    box-sizing:border-box;
-}
-
-.project-logo{
-    width:95%;
-}
-
-.project-desc{
-    font-size:large;
-}
-
-
-/* =====================================
-DETAILS
-===================================== */
+======================================= */
 
 .project-details{
     width: 80%;
     margin-left:auto;
     margin-right:auto;
-}
-
-.ew-details{
-    width:100%;
 }
